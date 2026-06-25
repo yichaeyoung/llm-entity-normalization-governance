@@ -165,7 +165,7 @@ datas/shareholder_relationship_tables_current/
 친족 주주 관계 조사 전체 파이프라인을 실행합니다.
 
 <p align="center">
-  <img src="docs/images/image (3).png" alt="Full Analysis Pipeline" width="95%">
+  <img src="images/image (3).png" alt="Full Analysis Pipeline" width="95%">
 </p>
 ### 세부 설명
 
