@@ -122,10 +122,9 @@ datas/shareholder_relationship_tables_current/
 
 이후 해당 인물이 친족 중에서 정확히 어떤 관계를 맺고 있는지 조사합니다.
 
-> **이미지 삽입 위치:** 기업별 주주 명부를 불러오고, `친족여부 = 친족`인 인물을 대상으로  
-> 기준 인물 확인, 웹 검색 기반 RAG, LLM 관계 추론, 결과 저장 과정을 보여주는  
-> **Specific Family Detail Inference Flow Chart 이미지**가 들어가면 됩니다.
-
+<p align="center">
+  <img src="images/image (2).png" alt="Full Analysis Pipeline" width="95%">
+</p>
 ### 1. 코드의 핵심 목적
 
 - **입력(Input)**  
@@ -165,10 +164,9 @@ datas/shareholder_relationship_tables_current/
 
 친족 주주 관계 조사 전체 파이프라인을 실행합니다.
 
-> **이미지 삽입 위치:** 과거·현재 주주 명부 비교, 변경 대상 추출, LLM·RAG 분석,  
-> 제약조건 검증, 결과 CSV 저장 및 가족 관계도 생성 과정을 보여주는  
-> **Shareholder Diff, LLM RAG Analysis & Family Graph Pipeline 이미지**가 들어가면 됩니다.
-
+<p align="center">
+  <img src="docs/images/image (3).png" alt="Full Analysis Pipeline" width="95%">
+</p>
 ### 세부 설명
 
 1. 기존에 조사한 `shareholder_relationship_tables`와 코드를 실행할 때 생성된 `shareholder_relationship_tables_current`를 비교합니다.
@@ -200,19 +198,17 @@ datas/shareholder_relationship_tables_current/
 
 > 결과물 예시
 
-```text
-datas/llm_diff_results/삼성전자_llm_diff.csv
-```
-
----
+<p align="center">
+  <img src="images/image (4).png" alt="Structured Family Relationship Analysis Result" width="95%">
+</p>
 
 ### 2. 한국형 지배구조 가계도(Hierarchical Visualization)
 
 분석된 데이터를 바탕으로 보고서에 활용할 수 있는 직관적인 가족 관계도 이미지를 생성합니다.
 
-> **이미지 삽입 위치:** 삼성전자 사례를 기준으로 부모 세대, 기준 인물, 자녀 및 기타 가족을  
-> 계층적으로 표현한 **한국형 지배구조 가계도 결과 이미지**가 들어가면 됩니다.
-
+<p align="center">
+  <img src="images/image (5).png" alt="Corporate Governance Family Graph" width="85%">
+</p>
 - **세대별 계층 구조(Generation Layering)**
   - **상단:** 부모 세대 또는 창업주·선대 회장
   - **중단:** 현재 경영 주체인 회장·대표자 및 배우자
