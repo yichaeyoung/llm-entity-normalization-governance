@@ -232,7 +232,7 @@ datas/family_graph/삼성전자_family_graph.png
 
 프로젝트와 관련된 논문 및 참고 문서는 다음과 같습니다.
 
-- `LLM 기반 주주 구조 분석 시스템 논문 초안 (KCI급).pdf.pdf`
+- [LLM 기반 주주 구조 분석 시스템 논문 PDF 보기](docs/llm_shareholder_structure_analysis_paper.pdf)
 
 ---
 
