@@ -232,8 +232,6 @@ datas/family_graph/삼성전자_family_graph.png
 
 프로젝트와 관련된 논문 및 참고 문서는 다음과 같습니다.
 
-- `Su-Kwan Lee Draft`
-- `결핵및잠복결핵감염 검진결과서_20260104102151.pdf`
 - `LLM 기반 주주 구조 분석 시스템 논문 초안 (KCI급).pdf.pdf`
 
 ---
